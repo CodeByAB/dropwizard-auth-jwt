@@ -4,3 +4,4 @@ branches:
   only:
     - master
     - develop
+    - /^feature.*$/
