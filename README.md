@@ -159,3 +159,24 @@ public class LoginResource {
 
 ```
 
+## Example code on client side
+
+To fetch out the JWT token:
+
+```bash
+curl -X "POST" "http://localhost:3000/api/login" \
+     -H 'Content-Type: application/json' \
+     -d $'{
+  "email": "daniel@test.com",
+  "password": "1234qwert"
+}'
+
+```
+
+To call the secure resource:
+
+```bash
+curl "http://localhost:3000/api/secure" \
+     -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwicm9sZXMiOiJVU0VSIiwidXNlciI6IkRhbmllbCIsImlhdCI6MTU1MjU0OTk2NiwianRpIjoiZ1RmT1ljVDZQQ0tSYjJxWFhYcDRFZyJ9.F4r0b8_Aj75LqPnsY_-Cc8GdT2k93B-Iwq4DovxLUxU'
+
+```
