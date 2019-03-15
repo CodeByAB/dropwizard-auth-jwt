@@ -3,6 +3,19 @@
 ## Status
 
 [![Build Status](https://travis-ci.com/CodeByAB/dropwizard-auth-jwt.svg?branch=master)](https://travis-ci.com/CodeByAB/dropwizard-auth-jwt)
+[![Maven Central](https://img.shields.io/maven-central/v/se.codeby/dropwizard-auth-jwt.svg)](https://search.maven.org/artifact/se.codeby/dropwizard-auth-jwt)
+
+## Getting started
+
+You can download the artifact from [Maven Central](https://search.maven.org/artifact/se.codeby/dropwizard-auth-jwt)
+
+```
+<dependency>
+  <groupId>se.codeby</groupId>
+  <artifactId>dropwizard-auth-jwt</artifactId>
+  <version>0.2</version>
+</dependency>
+```
 
 ## How to configure the JwtBundle
 
