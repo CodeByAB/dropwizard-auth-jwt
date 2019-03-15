@@ -6,7 +6,7 @@
 
     <groupId>se.codeby</groupId>
     <artifactId>dropwizard-auth-jwt</artifactId>
-    <version>0.2</version>
+    <version>0.3-SNAPSHOT</version>
 
     <name>dropwizard-auth-jwt</name>
     <description>JWT authentication support for dropwizard</description>
